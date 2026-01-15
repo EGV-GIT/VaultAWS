@@ -25,7 +25,8 @@ Attempts to disable logging or configuration tracking
 Infrastructure as Code
 All infrastructure is deployed and managed using Terraform
 
-modules/ – reusable Terraform modules
-accounts/dev/ – environment configuration
-runbooks/ – SOC response procedures
+modules/ reusable Terraform modules
+accounts/dev/ environment configuration
+runbooks/ SOC response procedures
+
 
