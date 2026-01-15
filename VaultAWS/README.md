@@ -1,6 +1,6 @@
 VaultAWS – Cloud Security Baseline & SOC Pipeline
 
-VaultAWS is a security-focused AWS environment built using Terraform.  
+VaultAWS is a security focused AWS environment built using Terraform.  
 The project demonstrates how I designed, secured, monitored, and how to respond to security events in a cloud environment.
 
 Key Features
@@ -28,6 +28,7 @@ All infrastructure is deployed and managed using Terraform
 modules/ reusable Terraform modules
 accounts/dev/ environment configuration
 runbooks/ SOC response procedures
+
 
 
 
