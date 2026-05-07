@@ -34,7 +34,7 @@ data "aws_iam_policy_document" "guardrails" {
   }
 
   statement {
-    sid    = "DenyOutsideSydney"
+    sid    = "DenyOutsideRegion"
     effect = "Deny"
     actions = ["*"]
     resources = ["*"]
@@ -42,7 +42,7 @@ data "aws_iam_policy_document" "guardrails" {
     condition {
       test     = "StringNotEquals"
       variable = "aws:RequestedRegion"
-      values   = ["ap-southeast-2"]
+      values   = [var.region]
     }
   }
 }
